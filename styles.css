@@ -1,12 +1,6 @@
 		
 body{			
-background:url('../Omar6741.github.io/Awesome-Modern-Executive-Desk.jpg');
-background-position: center;
-background-attachment: fixed;
--webkit-background-size: cover; 
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+
 }
 		
 * {
@@ -14,6 +8,18 @@ background-size: cover;
   -webkit-box-sizing: border-box; 
    box-sizing: border-box; 
 }
+
+       #top-container {
+	    height: 100vh;
+		background:url('../Omar6741.github.io/Awesome-Modern-Executive-Desk.jpg');
+		background-position: center;
+		background-attachment: fixed;
+		-webkit-background-size: cover; 
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		position: relative;
+	   }
 		
         #container{
   	     background: black;
@@ -32,14 +38,37 @@ background-size: cover;
 			  color: black;
 			  padding: 5px;
 		  }
+		  h1 {
+			font-size: 5.625rem;
+			/* Note: 1
+			em = 100% = 16px; rem = rootem (ignores container font-sizes) */
+			margin-top: 50px auto 0px auto;
+			position: absolute;
+			left: 50%;
+			font-family: "Sacramento", cursive;
+			color: #153a52;
+			line-height: 2;
+		  }
+		  
+		  h2 {
+			font-family: "Montserrat", sans-serif;
+			font-size: 2rem;
+			color: #153a52;
+			font-weight: normal;
+			line-height: 2;
+			position: absolute;
+			left: 60%;
+			top:30%;
+
+		  }
 		 
-		 h2{
+		 /* h2{
 		 background: rgb(128, 128, 160);
 		 font: Lato;
 		 padding: 5x;
 		 border-radius: 5x;	
 		 text-align: center;
-		 }
+		 } */
 
         h3{
          font-size: 1.2rem;
