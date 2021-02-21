@@ -1,5 +1,4 @@
 		
-				
 * {
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
@@ -17,7 +16,13 @@
 		background-size: cover;
 		position: relative;
 	   }
-		
+	   #middle-container {
+		margin: 100px 0;
+		margin: 0px;
+	text-align: center;
+	font-family: "Merriweather", serif;
+	color: #40514e;
+	  }
         #container{
   	     background: black;
   	     width: 480px;
@@ -47,7 +52,7 @@
 			line-height: 2;
 		  }
 		  
-		  h2 {
+		#intro {
 			font-family: "Montserrat", sans-serif;
 			font-size: 2rem;
 			color: #153a52;
@@ -70,7 +75,7 @@
         h3{
 			font-family: "Montserrat", sans-serif;
          font-size: 1.7rem;
-  	     color: white;
+  	     color: #153a52;
   	     padding: 5x;
   	     border-radius: 5px;
          }
@@ -103,6 +108,7 @@
 		.navbar li {
 			position: absolute;
 			left: 5%;
+			color: white;
 		}
 
 		 .nav-menu {
@@ -144,4 +150,29 @@
 		  .nav-menu a:hover i, .nav-menu .active i, .nav-menu li:hover > a i {
 			color: #149ddd;
 		  }
+
+		  #navtext {
+			  color: white;
+		  }
 		  
+		  .code-img {
+			width: 25%;
+			float: left;
+			margin-right: 30px;
+		  }
+		  .cyberwar-img {
+			width: 25%;
+			float: right;
+			margin-left: 30px;
+		  }
+		  
+		  .skill-row {
+			position: relative;
+			width: 50%;
+			text-align: left;
+			margin: 100px auto 100px auto;
+		  }
+		  .intro {
+			width: 30%;
+			margin: 0 auto;
+		  }
