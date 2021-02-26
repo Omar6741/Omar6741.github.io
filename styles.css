@@ -4,7 +4,10 @@
   -webkit-box-sizing: border-box; 
    box-sizing: border-box;
 }
-	
+      body {
+		  position: relative;
+	  }	
+
        #top-container {
 	    height: 100vh;
 		background:url('../Omar6741.github.io/Awesome-Modern-Executive-Desk.jpg');
@@ -16,6 +19,7 @@
 		background-size: cover;
 		position: relative;
 	   }
+
 	   #middle-container {
 		margin: 100px 0;
 		margin: 0px;
@@ -23,6 +27,17 @@
 	font-family: "Merriweather", serif;
 	color: #40514e;
 	  }
+
+	  #bottom-container {
+		margin: 100px 0;
+		margin: 0px;
+	text-align: center;
+	font-family: "Merriweather", serif;
+	color: #40514e;
+	display: flex;
+	justify-content: space-evenly;
+	  }
+
         #container{
   	     background: black;
   	     width: 480px;
@@ -36,6 +51,7 @@
           }
 		  
 		  #footer{
+			  margin-top: 30px;
 			  background: white;
 			  color: black;
 			  padding: 5px;
@@ -88,7 +104,7 @@
          }
 
          a {
-         	color: #75c1f6;
+         	color: #48acf4;
          	text-decoration: none;
          }
 
@@ -188,3 +204,5 @@
 			margin: 0 auto;
 			line-height: 2;
 		  }
+
+		
